@@ -45,3 +45,4 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/motorola/nio/nio-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
